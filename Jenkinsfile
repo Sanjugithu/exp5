@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'your-dockerhub-username/jenkins-demo'
+        DOCKER_IMAGE = 'docsanker/exp5'
         DOCKER_CREDENTIALS = 'dockerhub_credentials'
     }
 
